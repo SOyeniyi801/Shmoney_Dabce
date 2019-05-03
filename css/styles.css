@@ -1,0 +1,25 @@
+.money-container {
+  border: blue 5px solid;
+  height: 300px;
+  width: 53%;
+  }
+
+header {
+  border: blue 5px solid;
+  width: 20%;
+  margin-bottom: 40px;
+  }
+
+.bank-container {
+  border: blue 5px solid;
+  width: 25%;
+  height: 150px;
+  display: flex;
+  align-content: center;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
