@@ -1,8 +1,11 @@
 .money-container {
   border: blue 5px solid;
-  height: 300px;
   width: 53%;
   }
+
+.money-container img {
+  height: 90px
+}
 
 header {
   border: blue 5px solid;
@@ -13,13 +16,25 @@ header {
 .bank-container {
   border: blue 5px solid;
   width: 25%;
-  height: 150px;
-  display: flex;
-  align-content: center;
+  /* height: 150px; */
+}
+
+.bank-container img {
+  height: 200px;
 }
 
 .body-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+button {
+  height: 60px;
+  width: 60px;
+}
+
+.reset {
+  display: flex;
+  justify-content: flex-end;
 }
