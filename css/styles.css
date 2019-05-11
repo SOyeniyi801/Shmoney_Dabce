@@ -49,11 +49,25 @@ button {
   }
 
 .questions-container{
-    width: 120px;
-    border: blue 5px solid;
-    margin:20px;
+  width: 120px;
+  border: blue 5px solid;
+  margin:20px;
   }
 .header-container{
   display:flex;
   justify-content: center;
+}
+
+body{
+  background-image: url(https://st3.depositphotos.com/5466018/18952/v/1600/depositphotos_189526202-stock-illustration-seamless-pattern-background-money-rain.jpg);
+}
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+}
+
+p{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold;
 }
