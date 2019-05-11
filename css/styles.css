@@ -9,7 +9,6 @@
 
 header {
   border: blue 5px solid;
-  width: 20%;
   margin-bottom: 40px;
   }
 
@@ -22,15 +21,20 @@ header {
   height: 200px;
   }
 
-.body-container {
+.dynamic-box{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.content-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   }
 
 button {
-  height: 60px;
-  width: 60px;
+  width: 100px;
   }
 
 .reset {
@@ -39,12 +43,17 @@ button {
   }
 
 .counter-container{
-  width: 50px;
+  width: 80px;
   border: blue 5px solid;
+  margin:20px;
   }
 
-  .questions-container{
-    width: 70px;
+.questions-container{
+    width: 120px;
     border: blue 5px solid;
-
+    margin:20px;
   }
+.header-container{
+  display:flex;
+  justify-content: center;
+}
