@@ -1,6 +1,10 @@
 .money-container {
-  border: blue 5px solid;
+  border: #33ab33a8 5px solid;
   width: 53%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #33ab33a8;
   }
 
 .money-container img {
@@ -8,8 +12,9 @@
   }
 
 header {
-  border: blue 5px solid;
+  border: #33ab33a8 5px solid;
   margin-bottom: 40px;
+  background-color: #33ab33a8;
   }
 
 .bank-container {
@@ -44,14 +49,16 @@ button {
 
 .counter-container{
   width: 80px;
-  border: blue 5px solid;
+  border: #33ab33a8 5px solid;
   margin:20px;
+  background-color: #33ab33a8;
   }
 
 .questions-container{
   width: 120px;
-  border: blue 5px solid;
+  border: #33ab33a8 5px solid;
   margin:20px;
+  background-color: #33ab33a8;
   }
 .header-container{
   display:flex;
@@ -70,4 +77,8 @@ h2{
 p{
   font-family: 'Gloria Hallelujah', cursive;
   font-weight: bold;
+}
+
+img .money-container{
+
 }
