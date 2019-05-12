@@ -18,8 +18,9 @@ header {
   }
 
 .bank-container {
-  border: blue 5px solid;
   width: 25%;
+  display: flex;
+  align-items: center;
   }
 
 .bank-container img {
@@ -52,7 +53,8 @@ button {
   border: #33ab33a8 5px solid;
   margin:20px;
   background-color: #33ab33a8;
-  font-size: 20px;
+  font-size: 28px;
+  height: min-content;
   }
 
 .questions-container{
@@ -74,6 +76,8 @@ body{
 h2{
   font-family: 'Permanent Marker', cursive;
   font-size: 50px;
+  text-decoration: underline;
+  text-decoration-style: double;
 }
 
 p{
@@ -83,4 +87,10 @@ p{
 
 .money-container p{
   font-size: 25px;
+}
+
+span{
+  text-decoration: underline;
+  font-size: 1.2em;
+  color: #bf1717;
 }
