@@ -52,6 +52,7 @@ button {
   border: #33ab33a8 5px solid;
   margin:20px;
   background-color: #33ab33a8;
+  font-size: 20px;
   }
 
 .questions-container{
@@ -59,6 +60,7 @@ button {
   border: #33ab33a8 5px solid;
   margin:20px;
   background-color: #33ab33a8;
+  font-size: 20px;
   }
 .header-container{
   display:flex;
@@ -79,6 +81,6 @@ p{
   font-weight: bold;
 }
 
-img .money-container{
-
+.money-container p{
+  font-size: 25px;
 }
