@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: #33ab33a8;
+  margin-top: -100px;
   }
 
 .money-container img {
