@@ -13,15 +13,16 @@ $(function(){
     console.log("compare bank", questions);
 
     if(questions === sum){
-    console.log("Shmoney!");
+    console.log("Shmoney!")
+    shake()
+
+
+    //turn piggy
+    //change span
+    //sing
     } else{
 
     }
-
-
-
-
-
   }
 
   $(".reset").click(reset);
@@ -31,4 +32,10 @@ $(function(){
     $("#sum").text(sum);
   }
 
+  // $("#piggy").toggle(shake)
+  function shake(){
+    console.log("shake pig");
+    $(".bank-container").animate({});
+
+  }
 });
