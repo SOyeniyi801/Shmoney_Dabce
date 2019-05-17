@@ -12,21 +12,19 @@ $(function(){
     let questions = Number($("span").text())
     console.log("compare bank", questions);
 
-    if(questions === sum){
-    console.log("Shmoney!")
-    shake()
-
-
-    //turn piggy
-    //change span
-    //sing
-    } else{
-
-    }
+    $("#compare").click(compareAnswer);
+    function compareAnswer(){
+      console.log("Am I right");
+      if(questions === sum){
+      console.log("Shmoney");
+      }else {
+      console.log("Try Again");
+      }
   }
+}
 
-  $(".reset").click(reset);
-  function reset(){
+  $("#reset").click(reset);
+    function reset(){
     sum=0;
     console.log("reset game");
     $("#sum").text(sum);
@@ -35,7 +33,6 @@ $(function(){
   // $("#piggy").toggle(shake)
   function shake(){
     console.log("shake pig");
-    $(".bank-container").animate({});
-
+    // $(".bank-container").animate({});
   }
-});
+ });
