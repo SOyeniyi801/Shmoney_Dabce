@@ -50,7 +50,7 @@ button {
   }
 
 .counter-container{
-  width: 80px;
+  width: 100px;
   border: #33ab33a8 5px solid;
   margin:20px;
   background-color: #33ab33a8;
@@ -90,8 +90,12 @@ p{
   font-size: 25px;
 }
 
-span{
+.questions-container span {
   text-decoration: underline;
   font-size: 1.2em;
   color: #bf1717;
 }
+
+/* .counter-container{
+  display: flex;
+} */
