@@ -16,7 +16,8 @@ $(function(){
     function compareAnswer(){
       console.log("Am I right");
       if(questions === sum){
-      console.log("Shmoney");
+      console.log("Shmoney"); //logic to play soundbit will go here//
+      shake()
       }else {
       console.log("Try Again");
       }
@@ -30,9 +31,8 @@ $(function(){
     $("#sum").text(sum);
   }
 
-  // $("#piggy").toggle(shake)
   function shake(){
-    console.log("shake pig");
-    // $(".bank-container").animate({});
+  console.log("shake pig");
+  $('.bank-container img').addClass('animated shake delay-500ms')
   }
  });
